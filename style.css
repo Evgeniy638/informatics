@@ -1,0 +1,53 @@
+body{
+     margin: 0;
+     padding: 0;
+}
+
+table{
+     margin-top: 10px;
+     border-spacing: 3px;
+}
+
+td{
+     border: black solid 1px;
+     width: 50px;
+     text-align: center;
+}
+
+.line{
+     width: 100%;
+     height: 1px;
+     background-color: #000;
+}
+
+.text{
+     margin: 10px;
+}
+
+.inputMatrix{
+     border:none;
+     background:none;
+     outline:none;
+     padding:0;
+     width: 50px;
+     text-align: center;
+}
+
+.errorLabel{
+     border-color: red;
+     border-width: 2px;
+}
+
+#errorMessage{
+     color: red;
+}
+
+button{
+     margin-top: 10px;
+}
+
+.numLineOrColumnTable{
+     border: 0;
+     text-align: center;
+     font-weight: bold;
+}
