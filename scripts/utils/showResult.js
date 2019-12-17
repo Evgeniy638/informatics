@@ -1,6 +1,10 @@
 const showResult = (matrix) => {
      let result = document.getElementById("result")
 
+     for(let i = result.childElementCount - 1; i >= 0; i--){
+          result.removeChild(result.children[i])
+     }
+
      let table = document.createElement("table")
 
      let caption = document.createElement("caption")
